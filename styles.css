@@ -1,7 +1,7 @@
 /* Main formatting */
 
 html {
-	font-size: 12pt;
+	font-size: 1em;
 	color: #4e5a61;
 }
 
@@ -24,7 +24,7 @@ main {
 }
 
 h1 {
-	font-size: 36pt;
+	font-size: 3.5em;
 	text-align: center;
 }
 
@@ -37,7 +37,7 @@ img {
 
 footer {
 	text-align: center;
-	padding: 5%;
+	padding: 2em;
 }
 
 /* Navigation bar */
@@ -50,7 +50,7 @@ nav ul {
 }
 
 nav li {
-	padding: 1rem 2rem 1rem 2rem;
+	padding: 1em 2em 1em 2em;
 	float: left;
 }
 
@@ -67,7 +67,7 @@ nav a {
 /* Links */
 
 a {
-	font-size: 12pt;
+	font-size: 1em;
 	color: #6d7d82;
 }
 
