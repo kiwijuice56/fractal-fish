@@ -1,7 +1,7 @@
 /* Main formatting */
 
 html {
-	font-size: 16px;
+	font-size: 12pt;
 	color: #4e5a61;
 }
 
@@ -12,18 +12,19 @@ body {
 	padding: 0;
 	background-color: #d3dadb;
 	font-family: Trebuchet MS, Geneva, sans-serif;
-	line-height: 36px;
+	line-height: 2.25;
+
 }
 
 main {
 	background-color: #f2f5f5;
-	padding: 2%;
+	padding: 2em;
 	filter: drop-shadow(1px 2px 2px #78818a);
 	border-radius: 2px;
 }
 
 h1 {
-	font-size: 64px;
+	font-size: 36pt;
 	text-align: center;
 }
 
@@ -36,7 +37,7 @@ img {
 
 footer {
 	text-align: center;
-	padding: 24px;
+	padding: 5%;
 }
 
 /* Navigation bar */
@@ -49,11 +50,13 @@ nav ul {
 }
 
 nav li {
+	padding: 1rem 2rem 1rem 2rem;
 	float: left;
+	vertical-align: middle;	
 }
 
 nav a {
-	padding: 16px 32px 16px 32px;
+	
 	color: #4e5a61;
 	display: block;
 	text-decoration: none;
@@ -61,7 +64,6 @@ nav a {
 
 #homeName {
 	font-weight: bold;
-	font-size: 22px;
 }
 
 /* Links */
@@ -91,8 +93,8 @@ a:hover {
 	
 	#icon {
 		position: absolute;
-		right: 0;
-		top: 0;
+		right: 1rem;
+		top: 1rem;
 	}
 	
 	nav.closed li:not(:first-child) {
