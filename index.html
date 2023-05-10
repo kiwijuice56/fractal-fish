@@ -3,6 +3,7 @@
 
 <head>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="styles.css"/> 
 <script src="script.js"> </script>
 <title>fractal-fish</title>
@@ -12,23 +13,24 @@
 
 <body id="root">
 
-<nav>
+<nav id="navBar" class="closed">
 	<ul>
-		<li><a id="homeText" href="">fractal-fish </a></li>
-		<li><a href="">>web-fractals
-		
-		</a></li>
+		<li><a id="homeName" href="">fractal-fish </a></li>
+		<li><a href="">>web-fractals</a></li>
 		<li><a href="">>tutorials</a></li>
-		<li><a href="">>about</a></li>
+		<a href="javascript:void(0);" id="icon" onclick="toggleNav()">
+			<i class="fa fa-bars"></i>
+		</a>
 	</ul>
 </nav>	
 
 <main>
-	<h1> Content </h1>
-	
-	<p>
-	content content content content content content
-	</p>
+	<h1> fractal-fish </h1>
+	<img src="img/icon.png"/>
+	<h3> About </h3>
+	<p> fractal-fish is an open-source project to provide tutorials, code, and runnable web programs for a variety of fractals. 
+	<h3> Source Code </h3>
+	<p> The simulations on fractal-fish were created using the Godot game engine (stable version 3.5) and are hosted through the GitHub Pages service. All of the code is available on <a href="https://github.com/kiwijuice56">my github profile</a> under the MIT license. </p>
 </main>
 
 <footer>

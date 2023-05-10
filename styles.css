@@ -1,9 +1,11 @@
+/* Main formatting */
+
 html {
 	color: #4e5a61;
 }
 
 body {
-	background-image: url(tile.png);
+	background-image: url(img/tile.png);
 	background-repeat: repeat;
 	margin: 0;
 	padding: 0;
@@ -12,9 +14,31 @@ body {
 	line-height: 36px;
 }
 
-nav {
-	margin-bottom: 16px;
+main {
+	background-color: #f2f5f5;
+	padding: 2%;
+	filter: drop-shadow(1px 2px 2px #78818a);
+	border-radius: 2px;
 }
+
+h1 {
+	font-size: 64px;
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+footer {
+	text-align: center;
+	padding: 24px;
+}
+
+/* Navigation bar */
 
 nav ul {
 	margin: 0;
@@ -34,26 +58,54 @@ nav a {
 	text-decoration: none;
 }
 
-main {
-	background-color: #f2f5f5;
-	padding: 2%;
-	filter: drop-shadow(1px 2px 2px #78818a);
-	border-radius: 2px;
-}
-
-footer {
-	text-align: center;
-	padding: 24px;
-}
-
-#homeText {
+#homeName {
 	font-weight: bold;
 	font-size: 22px;
+}
+
+/* Links */
+
+a {
+	color: #6d7d82;
+}
+
+a:hover {
+	color: #242a33;
+}
+
+/* Responsive queries */
+
+@media (max-width: 800px) {
+	/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav */
+	
+	nav {
+		position: relative;
+	}
+	
+	nav li {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	
+	#icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	
+	nav.closed li:not(:first-child) {
+		display: none;
+	}
 }
 
 @media (min-width: 800px) {
 	main {
 		margin-left: 22%;
 		margin-right: 22%;
+	}
+	
+	#icon {
+		display: none;
 	}
 }
