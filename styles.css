@@ -75,7 +75,7 @@ a:hover {
 
 /* Responsive queries */
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 	/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav */
 	
 	nav {
@@ -99,7 +99,7 @@ a:hover {
 	}
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
 	main {
 		margin-left: 22%;
 		margin-right: 22%;
