@@ -1,0 +1,59 @@
+html {
+	color: #4e5a61;
+}
+
+body {
+	background-image: url(tile.png);
+	background-repeat: repeat;
+	margin: 0;
+	padding: 0;
+	background-color: #d3dadb;
+	font-family: Trebuchet MS, Geneva, sans-serif;
+	line-height: 36px;
+}
+
+nav {
+	margin-bottom: 16px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav a {
+	padding: 16px 32px 16px 32px;
+	color: #4e5a61;
+	display: block;
+	text-decoration: none;
+}
+
+main {
+	background-color: #f2f5f5;
+	padding: 2%;
+	filter: drop-shadow(1px 2px 2px #78818a);
+	border-radius: 2px;
+}
+
+footer {
+	text-align: center;
+	padding: 24px;
+}
+
+#homeText {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+@media (min-width: 800px) {
+	main {
+		margin-left: 22%;
+		margin-right: 22%;
+	}
+}
