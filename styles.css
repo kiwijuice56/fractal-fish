@@ -90,10 +90,16 @@ a:hover {
 		text-align: left;
 	}
 	
+	nav.closed nav li:first-child {
+		float: left;
+	}
+	
 	#icon {
+		display: block;
 		position: absolute;
-		right: 1rem;
-		top: 1rem;
+		top: 0.5em;
+		right: 1em;
+		padding: 0em 1em 0em 1em;
 	}
 	
 	nav.closed li:not(:first-child) {
