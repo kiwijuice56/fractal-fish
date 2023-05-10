@@ -52,11 +52,9 @@ nav ul {
 nav li {
 	padding: 1rem 2rem 1rem 2rem;
 	float: left;
-	vertical-align: middle;	
 }
 
 nav a {
-	
 	color: #4e5a61;
 	display: block;
 	text-decoration: none;
@@ -69,6 +67,7 @@ nav a {
 /* Links */
 
 a {
+	font-size: 12pt;
 	color: #6d7d82;
 }
 
