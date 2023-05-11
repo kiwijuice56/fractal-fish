@@ -2,7 +2,7 @@
 
 html {
 	font-size: 1rem;
-	color: #4e5a61;
+	color: #4f5a61;
 }
 
 body {
@@ -16,12 +16,12 @@ body {
 }
 
 main {
-	background-color: #f2f5f5;
+	background-color: #f8fcfc;
 	filter: drop-shadow(1px 2px 2px #78818a);
 	border-radius: 2px;
 }
 
-#articleContent {
+article {
 	padding: 2rem;
 }
 
@@ -74,11 +74,40 @@ nav a {
 
 a {
 	font-size: 1rem;
-	color: #6d7d82;
+	color: #4f5a61;
 }
 
 a:hover {
 	color: #242a33;
+}
+
+/* Article buttons */
+
+.articleButton {
+	border: 1px solid #d3dadb;
+	border-radius: 2px;
+	text-align: left;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.articleButton:hover {
+	background-color: #faffff;
+}
+
+.articleButton img {
+	float: left;
+	width: 25%;
+	margin: 1em;
+}
+
+.articleTitle {
+	font-weight: bold;
+}
+
+.articleDescription {
+	overflow: visible;
+	word-wrap: break-word;
 }
 
 /* Responsive queries */
