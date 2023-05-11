@@ -35,6 +35,13 @@ img {
 	width: 50%;
 }
 
+button {
+	background: none;
+	outline: none;
+	border: none;
+	color: #4e5a61;
+}
+
 footer {
 	text-align: center;
 	padding: 2em;
@@ -61,6 +68,7 @@ nav a {
 }
 
 #homeName {
+	font-size: 1em;
 	font-weight: bold;
 }
 
@@ -97,12 +105,12 @@ a:hover {
 	#icon {
 		display: block;
 		position: absolute;
-		top: 0.5em;
+		top: 2em;
 		right: 1em;
 		padding: 0em 1em 0em 1em;
 	}
 	
-	nav.closedNav li:not(:first-child) {
+	nav.closedNav li:not(:first-child):not(:last-child) {
 		display: none;
 	}
 }
