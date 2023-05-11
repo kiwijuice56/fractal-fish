@@ -1,8 +1,12 @@
 function toggleNav() {
-  var x = document.getElementById("navBar");
-  if (x.className === "closed") {
-    x.className = "";
-  } else {
-    x.className = "closed";
-  }
+	// Accessibility
+	var buttonToggle = document.getElementById("navBar").getAttribute("aria-expanded");
+	buttonToggle = !buttonToggle;
+	
+	var nav = document.getElementById("navBar");
+	if (nav.className === "closedNav") {
+		nav.className = "";
+	} else {
+		nav.className = "closedNav";
+	}
 }

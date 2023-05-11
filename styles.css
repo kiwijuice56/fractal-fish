@@ -90,7 +90,7 @@ a:hover {
 		text-align: left;
 	}
 	
-	nav.closed nav li:first-child {
+	nav.closedNav li:first-child {
 		float: left;
 	}
 	
@@ -102,7 +102,7 @@ a:hover {
 		padding: 0em 1em 0em 1em;
 	}
 	
-	nav.closed li:not(:first-child) {
+	nav.closedNav li:not(:first-child) {
 		display: none;
 	}
 }
