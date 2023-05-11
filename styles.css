@@ -17,21 +17,19 @@ body {
 
 main {
 	background-color: #f2f5f5;
-	padding: 2rem;
 	filter: drop-shadow(1px 2px 2px #78818a);
 	border-radius: 2px;
 }
 
-h1 {
-	font-size: 3.5rem;
-	text-align: center;
+#articleContent {
+	padding: 2rem;
 }
 
 img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 100%;
 }
 
 button {
