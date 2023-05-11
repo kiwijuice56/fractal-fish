@@ -1,18 +1,17 @@
-/* Main formatting */
-
-html {
-	font-size: 1rem;
-	color: #4f5a61;
-}
+/* General formatting */
 
 body {
-	background-image: url(img/tile.png);
-	background-repeat: repeat;
 	margin: 0;
 	padding: 0;
-	background-color: #d3dadb;
+	
+	font-size: 1rem;
 	font-family: Trebuchet MS, Geneva, sans-serif;
 	line-height: 2.25;
+	color: #4f5a61;
+	
+	background-image: url(img/tile.png);
+	background-repeat: repeat;
+	background-color: #d3dadb;
 }
 
 main {
@@ -22,7 +21,7 @@ main {
 }
 
 article {
-	padding: 2rem;
+	padding: 1.8rem;
 }
 
 img {
@@ -89,6 +88,7 @@ a:hover {
 	text-align: left;
 	text-decoration: none;
 	display: inline-block;
+	margin-bottom: 1rem;
 }
 
 .articleButton:hover {
@@ -98,7 +98,7 @@ a:hover {
 .articleButton img {
 	float: left;
 	width: 25%;
-	margin: 1em;
+	margin-right: 0.6rem;
 }
 
 .articleTitle {
@@ -108,9 +108,19 @@ a:hover {
 .articleDescription {
 	overflow: visible;
 	word-wrap: break-word;
+	line-height: 1rem;
+	padding-right: 0.5rem
 }
 
-/* Responsive queries */
+.articleDescription p {
+	margin-bottom: 1rem;
+}
+
+.articleDescription i {
+	font-size: 0.8rem;
+}
+
+/* Mobile and desktop styling */
 
 @media (max-width: 1000px) {
 	/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav */
@@ -127,6 +137,10 @@ a:hover {
 	
 	nav.closedNav li:not(:first-child) {
 		display: none;
+	}
+	
+	.articleButton img {
+		width: 35%;
 	}
 }
 
