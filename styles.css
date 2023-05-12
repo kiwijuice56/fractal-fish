@@ -113,11 +113,11 @@ a:hover {
 }
 
 .articleDescription p {
-	margin-bottom: 1rem;
+	margin-bottom: 0.3rem;
 }
 
 .articleDescription i {
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 }
 
 /* Mobile and desktop styling */
