@@ -20,6 +20,11 @@ main {
 	border-radius: 2px;
 }
 
+h3 {
+	margin-top: 0.2rem;
+	margin-bottom: 0.6rem;
+}
+
 article {
 	padding: 1.8rem;
 }
@@ -97,7 +102,7 @@ a:hover {
 
 .articleButton img {
 	float: left;
-	width: 25%;
+	width: 15%;
 	margin-right: 0.6rem;
 }
 
